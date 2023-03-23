@@ -10,11 +10,5 @@ Resources:
       InstanceType: t2.micro
       "Tags" : [
             {"Key" : "Name", "Value" : "eshani-cloudformation-test-s3bucket"},
-        ]
-        
-Resources:
-  S3Bucket:
-    Type: "AWS::S3::Bucket"
-    DeletionPolicy: "Retain"
-    Properties:
-      BucketName: "eshaniCFT-s3-bucket"
+        ]        
+
